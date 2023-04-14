@@ -5,10 +5,11 @@ export default function Meme(){
     return(
       <div>
         <main>
-          <form>
+          <form className="form">
             <input
             type="text"
             id="second-line"
+            className="form-input"
             name="bottomText"
             placeholder="First Line"
             >
@@ -16,12 +17,12 @@ export default function Meme(){
             <input
             type="text"
             id="second-line"
+            className="form-input"
             name="bottomText"
             placeholder="Second Line"
             ></input>
-            <div>
-            <button>check it</button>
-            </div> 
+            <button className="form-button"> check it</button>
+            
           </form>
           <div>
             <h1>Here Meme comes</h1>
